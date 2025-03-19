@@ -1,0 +1,12 @@
+.outer{
+    border:1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.inner{
+    background-color: green;
+    text-align: right;
+    transition:03s ease-in;
+}
