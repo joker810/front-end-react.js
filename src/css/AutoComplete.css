@@ -1,0 +1,35 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width:500px;
+    height:20px;
+    padding :10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.result-container
+{
+    height:200px;
+    overflow-y: scroll;
+    width:500px;
+
+}
+
+.result {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.highlight { /* ✅ Apply background when hovering or selected */
+    background-color: hsl(211, 100%, 50%);
+    color: white;
+}
+
